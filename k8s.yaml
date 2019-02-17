@@ -16,3 +16,5 @@ spec:
         env:
         - name: branch
           value: <BRANCH_NAME>
+      imagePullSecrets:
+      - name: <IMAGE_PULL_SECRET>
